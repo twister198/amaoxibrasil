@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="canonical" href="https://amaoxibrasil.com.br" />
+  <link rel="icon" href="./assets/img/LOGOAMAOXIBRASIL.png" />
+  <title>AMA OXI BRASIL — Gases industriais e medicinais em Marabá/PA</title>
+  <meta name="description" content="AMA OXI BRASIL fornece gases industriais e medicinais: Argônio, Oxigênio, Acetileno, Misturas, Nitrogênio e Oxigênio Medicinal. Entrega ágil em Marabá e região. Telefones: (94) 99176-7016 / (94) 99125-4184." />
+  <style>
+    :root { --primary:#0ea5e9; --primary-dark:#0284c7; --text:#0f172a; --muted:#475569; --bg:#ffffff; --bg-alt:#f8fafc; --border:#e2e8f0; --radius:12px; --maxw:1100px; }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans';color:var(--text)} img{max-width:100%;display:block;height:auto}
+    header{position:sticky;top:0;background:#fffddf;border-bottom:1px solid var(--border)} .nav{max-width:var(--maxw);margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:800} .brand img.logo{max-height:52px}
+    nav a{color:var(--text);text-decoration:none;margin-left:18px;font-weight:600}
+    .hero{padding:56px 16px 28px;background:linear-gradient(180deg,#fff,var(--bg-alt))} .hero-inner{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1.2fr 1fr;gap:24px;align-items:center}
+    @media(max-width:640px){.hero-inner{grid-template-columns:1fr}} .btn{display:inline-flex;gap:8px;padding:12px 18px;border-radius:10px;border:1px solid var(--border);text-decoration:none;font-weight:700} .btn-primary{background:var(--primary);color:#fff;border-color:var(--primary)}
+    section{padding:48px 20px} .container{max-width:var(--maxw);margin:0 auto}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px} @media(max-width:992px){.grid{grid-template-columns:repeat(2,1fr)}} @media(max-width:640px){.grid{grid-template-columns:1fr}}
+    .card{border:1px solid var(--border);border-radius:12px;padding:16px;background:#fff}
+    .portfolio{display:grid;grid-template-columns:repeat(3,1fr);gap:16px} @media(max-width:992px){.portfolio{grid-template-columns:repeat(2,1fr)}} @media(max-width:640px){.portfolio{grid-template-columns:1fr}}
+    .portfolio-item{border:1px solid var(--border);border-radius:12px;overflow:hidden;background:#fff}
+    footer{border-top:1px solid var(--border);padding:24px 20px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand">
+        <img class="logo" src="./assets/img/LOGOAMAOXIBRASIL.png" alt="Logo AMA OXI BRASIL" />
+        <span>AMA OXI BRASIL</span>
+      </div>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Gases</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>Gases industriais e medicinais em Marabá/PA</h1>
+        <p>Argônio, Oxigênio, Acetileno, Misturas, Nitrogênio e Oxigênio medicinal. Entrega ágil.</p>
+        <div>
+          <a class="btn btn-primary" href="#contato">Pedir orçamento</a>
+          <a class="btn" href="https://wa.me/5594991767016">WhatsApp</a>
+        </div>
+      </div>
+      <div>
+        <picture>
+          <source srcset="./assets/img/AMAOXI.webp" type="image/webp" />
+          <img src="./assets/img/photo_2025-07-31_23-53-46.jpg" alt="Cilindros e equipamentos — AMA OXI BRASIL" />
+        </picture>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio">
+    <div class="container">
+      <div class="portfolio">
+        <div class="portfolio-item"><img src="./assets/img/photo_2025-08-06_16-44-37.jpg" alt="Soldagem" /></div>
+        <div class="portfolio-item"><img src="./assets/img/photo_2025-08-06_16-44-50.jpg" alt="Corte" /></div>
+        <div class="portfolio-item"><img src="./assets/img/AMAOXI12.png" alt="Oxigênio medicinal" /></div>
+      </div>
+    </div>
+  </section>
+  <section id="contato">
+    <div class="container">
+      <p><strong>Telefones:</strong> (94) 99176-7016 / (94) 99125-4184 — <strong>E-mail:</strong> amaoxibrasil@gmail.com</p>
+      <p><strong>Endereço:</strong> Folha 28, Quadra 14, Lote 04 — Bairro Nova Marabá — Pará — CEP 68500-000</p>
+    </div>
+  </section>
+  <footer>
+    <div class="container">© <span id="year"></span> AMA OXI BRASIL</div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
